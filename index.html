@@ -2,11 +2,119 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: {{projectTitle}}</title>
+    <title>Седона – Круче чем Гранд Каньон!</title>
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+    <header>
+      <a>
+        <img src="https://via.placeholder.com/138x70" alt="Логтип города Седона" width="138" height="70">
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Фото и Видео</a></li>
+          <li><a href="#">Карта штата</a></li>
+          <li><a href="catalog.html">Гостиницы</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <h1>Седона – Круче чем Гранд Каньон!</h1>
+
+      <section>
+        <h2>Добро пожаловать в Седону!</h2>
+        <img src="https://via.placeholder.com/457x351" alt="Welcome to the gorgeous Sedona – Because the Grand Canon Sucks!" width="457" height="351">
+      </section>
+
+      <section>
+        <h2>5 причин приехать в Седону</h2>
+        <p>Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+        <ul>
+          <li>
+            <h3>Настоящий городок</h3>
+            <span>— №1 —</span>
+            <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            <ul>
+              <li>
+                <h4>Жильё</h4>
+                <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+              </li>
+              <li>
+                <h4>Еда</h4>
+                <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+              </li>
+              <li>
+                <h4>Сувениры</h4>
+                <p>Не только китайского, но и местного производства!</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3>Там есть Мост дьявола</h3>
+            <span>— №2 —</span>
+            <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+          </li>
+          <li>
+            <h3>Небольшая площадь</h3>
+            <span>— №3 —</span>
+            <p>Все достопримечательности находятся очень близко</p>
+          </li>
+          <li>
+            <h3>Красивая дорога</h3>
+            <span>— №4 —</span>
+            <p>Ехать в седону из лас-вегаса совсем не скучно!</p>
+          </li>
+          <li>
+            <h3>Мало туристов</h3>
+            <span>— №5 —</span>
+            <p>Большинство едет в гранд каньон и толпится там</p>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Заинтересовались?</h2>
+        <p>Укажите предполагаемые даты поездки, <br>
+          и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
+        <button type="button">Поиск гостиницы в Седоне</button>
+        <form class="booking-form" action="#" method="get">
+          <label for="booking-checkin">Дата заезда:</label>
+          <input id="booking-checkin" name="check-in" type="text" placeholder="24 апреля 2017">
+          <label for="booking-checkout">Дата выезда:</label>
+          <input id="booking-checkout" name="check-out" type="text" placeholder="4 июля 2017">
+          <label for="booking-adults">Взрослые:</label>
+          <input id="booking-adults" name="adults" type="number" min="0" placeholder="2">
+          <label for="booking-kids">Дети:</label>
+          <input id="booking-kids" name="kids" type="number" min="0" placeholder="0">
+          <input type="submit" value="Найти">
+        </form>
+      </section>
+
+      <section>
+        <h2>Карта Седоны</h2>
+        <!-- Здесь будет карта -->
+      </section>
+
+    </main>
+
+    <footer>
+      <div>
+        <p>#visitSEDONA</p>
+        <p>+7 800 555-86-28</p>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Youtube</a></li>
+        </ul>
+      </div>
+      <p>Website by <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="https://via.placeholder.com/115x33" alt="HTML Academy" width="115" height="33"></a></p>
+    </footer>
 
   </body>
 </html>
